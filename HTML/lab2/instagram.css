@@ -1,0 +1,152 @@
+#homepic{
+    height: 620px;
+    width: 428px;
+}
+.phone{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+body{
+    background: rgb(250, 250, 250);
+   
+    overflow-y:scroll
+}
+form{
+    position: absolute;
+    left: 690px;
+    height: 572px;
+    width: 350px;
+    background-color: white;
+    border: solid;
+    border-color: rgb(230, 230, 230);
+    border-width: 1px;
+    top: 39px;
+    text-align: center;
+}
+.log{
+    margin: 25px;
+}
+@font-face{
+    font-family: "Cookie";
+    src: url("https://fonts.googleapis.com/css?family=Cookie");
+}
+
+h1{
+    font-family: "Cookie", cursive;
+    font-size: 43px;
+    margin: 0;
+}
+h3{
+    color: rgb(155, 155, 155);
+    margin: 0.5em;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+button{
+    height: 32px;
+    width: 264px;
+    background: rgb(79, 150, 233);
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+    margin: 12px;
+    cursor: pointer;
+}
+button p{
+    position: relative;
+    bottom: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 8px;
+}
+
+.b{
+    margin: 7px 0;
+}
+.or{
+    display: inline-block;
+}
+.or1{
+    font-weight: 500;
+    font-size: 13px;
+}
+hr{
+    width: 110px;
+    border-width: 0.5px;
+    
+}
+#facebook{
+    height: 16px;
+    width: 16px;
+    margin: 4px;
+    display: inline;
+    font-family: sans-serif;
+   
+
+}
+input{
+    margin-bottom: 8px;
+    height: 30px;
+    width: 258px;
+    padding: 2px;
+    font-size: 12px;
+    border-color: rgb(239, 239, 239);
+    background: rgb(250, 250, 250);
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-style: ridge;
+}
+.policy{
+    width: 237px;
+    position: relative;
+    left: 23px;
+}
+.acc{
+    position: absolute;
+    left: 690px;
+    top: 625px;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background:white;
+    border: solid;
+    border-color: rgb(230, 230, 230);
+    border-width: 1px;
+}
+.acc p{
+    position: relative;
+    top: 7px;
+}
+.app{
+    position: absolute;
+    left: 690px;
+    top: 704px;
+    text-align: center;
+    width: 350px;
+    cursor: pointer;
+}
+.app img{
+    height: 40px;
+    width: 136px;
+}
+footer{
+    position: absolute;
+    top: 850px;
+    width: 1305px;
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-right: 17px;
+    font-size: 13px;
+    
+}
+a{
+    text-decoration: none;
+}
+li a{
+    color: rgb(15, 52, 199);
+}
