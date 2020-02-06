@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+body{
+    background: rgb(44, 49, 54);
+}
+header{
+    height: 52px;
+    width: 1280px;
+    padding: 8px 38px;
+    background: rgb(37, 41, 46);
+}
+.logo{
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
+}
+#logo{
+    position: relative;
+    height: 35px;
+    width: 56px;
+}
+.header{
+    display: inline-block;
+}
+ul{
+    padding-left: 0;
+    justify-content: space-between;
+    position: relative;
+}
+li{
+    position: relative;
+    top: 50%;
+    margin-top: -0.625em;
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#sign{
+    float: right;
+    position: relative;
+    justify-content: center;
+}
+.sign{
+    margin-right: 20px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+}
+#search{
+    height: 18px;
+    width: 213px;
+    background: rgb(63, 67, 73);
+    font-size: 16px;
+    padding: 8px;
+}
+#signup{
+    height: 34px;
+    width: 73px;
+    border: solid 0.5px white;
+    background: rgb(37, 41, 46);
+    color: white;
+    border-radius: 2px;
+}
+#text{
+    position: absolute;
+    top: 252px;
+    left: 148px;
+    height: 288px;
+    width: 553px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+h2{
+    color: rgb(171, 173, 175);
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+#login{
+    background: white;
+    position: absolute;
+    top: 135px;
+    left: 725px;
+    padding: 25px;
+    height: 473px;
+    width: 379px;
+    border: solid;
+    border-color: rgb(204, 209, 224);
+    border-width: 0.5px;
+    border-radius: 3px;
+}
+input, label{
+    display: block;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.log{
+    margin-bottom: 15px;
+}
+input{
+    width: 373px;
+    height: 40px;
+    border-radius: 4px;
+    border-width: 0.5px;
+    border-color: gray;
+}
+.log p{
+    font-size: 14px;
+    width: 363px;
+    margin-top: 5px;
+}
+#signin button{
+    width: 379px;
+    height: 66px;
+    margin: 20px 0;
+    background: rgb(94, 185, 92);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0.5px solid gray;
+    border-radius: 4px;
+}
+#policy{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(107, 115, 124);
+}
+#policy a{
+    text-decoration: none;
+}
+#policy a:hover{
+    text-decoration: underline;
+}
